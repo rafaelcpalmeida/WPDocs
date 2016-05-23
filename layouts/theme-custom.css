@@ -1,0 +1,127 @@
+/* Front page */
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        min-height: 100%;
+        margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+    }
+
+    .footer, .push {
+        width: 100%;
+        height: 100px; /* .push must be the same height as .footer */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        min-height: 100%;
+        margin: 0 auto -160px; /* the bottom margin is the negative value of the footer's height */
+    }
+
+    .footer, .push {
+        width: 100%;
+        height: 160px; /* .push must be the same height as .footer */
+    }
+}
+
+div#footer ul, ol {
+    margin-left: -30px;
+}
+
+.hero-buttons.container-fluid {
+    background-color: #3069A1;
+}
+
+.hero-buttons.container-fluid .btn-hero.btn.btn-primary, .hero-buttons.container-fluid .btn-hero.btn.btn-secondary {
+    color: #fff;
+    opacity: 1;
+    background-color: transparent;
+    border: 0;
+}
+
+.hero-buttons.container-fluid .btn-hero.btn.btn-primary:hover, .hero-buttons.container-fluid .btn-hero.btn.btn-secondary:hover {
+    background-color: #4C81B4;
+}
+
+.up {
+    margin-top: -50px;
+}
+
+.ifthenpay-dev-hp {
+    background-color: #fff !important;
+}
+/* End front page */
+
+/* Documentation pages */
+.navbar .container-fluid .brand, .navbar .container .brand{
+    color: #3069A1;
+}
+
+.navbar {
+    background-color: #fff;
+    z-index: 5;
+}
+
+.brand {
+    background: url(../img/devIcon.png) no-repeat center;
+    background-position-x: 15px; 
+    width: 100%;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+    background: url(../img/devIcon2x.png) no-repeat center;
+}
+
+@media screen and (min-width: 768px) {
+    .left-column, .right-column {
+        margin-top: -50px;
+        padding-top: 50px;
+        height: 100vh;
+    }
+    
+    .left-column.article-tree.col-sm-3 {
+        width: 15%;
+    }
+    
+    .right-column.content-area.col-sm-9 {
+        width: 85%;
+    }
+
+    .content-page {
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+    }
+    
+    .doc_content {
+        flex: 1 1 auto;
+    }
+}
+
+.nav.nav-list li ul {
+    display: block;
+    margin-left: -15px;
+    list-style: none;
+}
+div.menu-sidebar-container ul {
+    margin-top: 15px;
+}
+
+div.menu-sidebar-container ul li {
+    margin-top: 10px;
+}
+
+div.menu-sidebar-container ul li ul {
+    margin-top: 5px;
+}
+
+/* End documentation pages */
