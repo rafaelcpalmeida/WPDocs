@@ -26,13 +26,12 @@ Just install a fresh copy of WordPress, WPDocs and you're ready to use it.
     - Or edit an existing one and choose the "WPDocs Frontpage" template
 - Go to Personalize -> Homepage -> Change homepage to a static page and chose the page you've changed in the step above
 - Go to Personalize -> Menus and create a menu to be shown in the bottom of the Homepage and antoher one to be shown on the left side bar on the theme's inner pages
-- Create a new page and style the code using <pre> and <code> tags, for instance:
-    ```
-    <pre><code class="language-php">
-        echo "Hello World\n";
-    </code></pre>
-    ```
-    You can use any language that prism supports.
+- Create a new page and style the code using &lt;pre&gt; and &lt;code&gt; tags, for PHP. You can use any language that prism supports.
+```
+<pre><code class="language-php">
+    echo "Hello World\n";
+</code></pre>
+```
 
 ### Development
 
