@@ -69,18 +69,6 @@ div#footer ul, ol {
     z-index: 5;
 }
 
-.brand {
-    background: url(../img/devIcon.png) no-repeat center;
-    background-position-x: 15px; 
-    width: 100%;
-}
-
-@media 
-(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
-    /* Retina-specific stuff here */
-    background: url(../img/devIcon2x.png) no-repeat center;
-}
-
 @media screen and (min-width: 768px) {
     .left-column, .right-column {
         margin-top: -50px;
@@ -125,3 +113,24 @@ div.menu-sidebar-container ul li ul {
 }
 
 /* End documentation pages */
+
+/* 404 page */
+#primary {
+    width: 50%;
+    margin: 10% auto 0 auto;
+    text-align: center;
+}
+.page-header.page404 h1 {
+    color: #4B7B30;
+    font-size: 50px;
+    padding-bottom: 20px; 
+}
+
+.page-content {
+    font-size: 20px; 
+}
+
+.page-content a {
+    color: #3069A1;
+}
+/* End 404 page */

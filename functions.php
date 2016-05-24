@@ -41,10 +41,6 @@ function wpdocs_setup() {
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
-	// This theme uses wp_nav_menu() in one location.
-	register_nav_menus( array(
-		'primary' => esc_html__( 'Primary', 'wpdocs' ),
-	) );
 	/*
 	 * Switch default core markup for search form, comment form, and comments
 	 * to output valid HTML5.
@@ -173,3 +169,17 @@ function register_menus() {
 	);
 }
 add_action( 'init', 'register_menus' );
+
+function default_page_template( $template ) {
+
+    if ( is_singular( 'page' )  ) {
+        $default_template = locate_template( array( 'page-docs.php' ) );
+        if ( '' != $default_template ) {
+            return $default_template ;
+        }
+    }
+
+    return $template;
+}
+
+add_filter( 'template_include', 'default_page_template', 99 );
