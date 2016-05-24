@@ -33,6 +33,14 @@ Just install a fresh copy of WordPress, WPDocs and you're ready to use it.
 </code></pre>
 ```
 
+Or
+
+```
+<pre><code class="language-javascript">
+    console.log("Hello World\n");
+</code></pre>
+```
+
 ### Development
 
 Want to contribute? Great!
