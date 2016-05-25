@@ -1,0 +1,20 @@
+-------------
+| CHANGELOG |
+-------------
+
+*****************
+* Version 1.0.2 *
+*****************
+Changed folder structure
+Minor code improvements and cleansing
+Fixed minor CSS bug on sidebar top margin
+
+*****************
+* Version 1.0.1 *
+*****************
+Removed external jQuery as WordPress already ships with it
+
+*****************
+* Version 1.0.0 *
+*****************
+Initial theme

@@ -100,7 +100,7 @@ div#footer ul, ol {
     margin-left: -15px;
     list-style: none;
 }
-div.menu-sidebar-container ul {
+div#sub-nav-collapse ul {
     margin-top: 15px;
 }
 

@@ -46,7 +46,7 @@ get_header();
 </div>
 <div id="footer" class="hero-buttons container-fluid footer">
     <div class="container text-center">
-        <?php require_once(realpath(dirname(__FILE__)) . "/../walkerMenu.php"); ?>
+        <?php require_once(realpath(dirname(__FILE__)) . "/inc/walkerMenu.php"); ?>
         <?php wp_nav_menu( array( 'theme_location' => 'frontpage_footer_menu', 'walker'  => new walkerMenu() ) ); ?>
         <div class="clearfix"></div>
     </div>
