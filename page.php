@@ -29,14 +29,16 @@ get_header();
         <div class="right-column content-area col-sm-9">
             <div class="content-page">
                 <div class="doc_content">
-                    <article>
+                    <article <?php post_class(); ?>>
                         <div class="page-header sub-header clearfix">
                             <h1><?php echo get_the_title( $post->ID ); ?></h1>
                         </div>
                         <?php
                             $content = apply_filters('the_content', $post->post_content); 
                             echo $content;
-                        ?> 
+                        ?>
+                        <?php wp_link_pages(); ?>
+                        <?php comments_template(); ?> 
                     </article>
                 </div>
             </div>
