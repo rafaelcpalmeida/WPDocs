@@ -9,7 +9,7 @@ get_header();
  <div class="container-fluid fluid-height wrapper">
     <div class="navbar navbar-static-top hidden-print">
         <div class="container-fluid">
-            <a class="brand navbar-brand pull-left" href="<?php echo get_site_url(); ?>"><?php bloginfo( ‘name’ ); ?></a>
+            <a class="brand navbar-brand pull-left" href="<?php echo get_site_url(); ?>"><?php bloginfo( 'name' ); ?></a>
         </div>
     </div>
     <div class="row columns content">
