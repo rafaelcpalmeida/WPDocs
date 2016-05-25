@@ -5,13 +5,15 @@ WPDocs is a free and open source WordPress theme for your project documentation.
 ![alt text](https://raw.githubusercontent.com/rafaelcpalmeida/WPDoc/master/screenshot.png "WPDocs")
 
 ### Version
-1.0.1
+1.0.2
 
 ### Tech
 
 WPDocs is based on [daux.io] and on [_s] but it was stripped down and personalized as I saw it looked better, altough I'm using their css theme files as base, I've created a CSS file with my custom styling.
 
 In order to highlight the code I'm using [prism.js], you can check the languages they support in their page.
+
+This markdown file was written using [dillinger.io].
 
 ### Installation
 
@@ -53,7 +55,7 @@ License
 MIT
 
 
-**Free Software, Hell Yeah!**
+**Software livre c\*ralho!**
 
 **Made with ♥ in Portugal**
 
@@ -62,4 +64,5 @@ MIT
 
    [daux.io]: <http://daux.io/>
    [_s]: <http://underscores.me/>
-   [prism.js]: http://prismjs.com/
+   [prism.js]: <http://prismjs.com/>
+   [dillinger.io]: <http://dillinger.io/>
