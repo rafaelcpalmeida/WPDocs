@@ -4,10 +4,10 @@ WPDocs is a free and open source WordPress theme for your project documentation.
 
 ![alt text](https://raw.githubusercontent.com/rafaelcpalmeida/WPDoc/master/screenshot.png "WPDocs")
 
-### Version
+# Version
 1.0.2
 
-### Tech
+## Tech
 
 WPDocs is based on [daux.io] and on [_s] but it was stripped down and personalized as I saw it looked better, altough I'm using their css theme files as base, I've created a CSS file with my custom styling.
 
