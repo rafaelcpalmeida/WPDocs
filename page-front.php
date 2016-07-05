@@ -20,7 +20,7 @@ get_header();
                             $imageURL = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
                             $alt_text = get_post_meta( get_post_thumbnail_id($post->ID), '_wp_attachment_image_alt', true );;
                     ?>
-                    <img class="homepage-image img-responsive" src="<?php echo $imageURL; ?>" alt="<?php echo $alt_text; ?>">
+                    <img class="homepage-image img-responsive" src="<?php echo esc_url($imageURL); ?>" alt="<?php echo $alt_text; ?>">
                     <?php
                         endif;
                     ?>
